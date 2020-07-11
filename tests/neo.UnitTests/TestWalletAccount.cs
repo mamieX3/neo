@@ -9,7 +9,7 @@ namespace Neo.UnitTests
     {
         private static readonly KeyPair key;
 
-        public override bool HasKey => true;
+        public override bool HasKey => false;
         public override KeyPair GetKey() => key;
 
         public TestWalletAccount(UInt160 hash)
